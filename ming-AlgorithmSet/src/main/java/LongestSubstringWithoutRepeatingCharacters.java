@@ -1,6 +1,6 @@
 //leecode  The third question
 
-public class LongestSubstringWithoutRepeatingCharacters {
+public class longestSubstringWithoutRepeatingCharacters {
 
 
   public static int lengthOfLongestSubstring(String s) {

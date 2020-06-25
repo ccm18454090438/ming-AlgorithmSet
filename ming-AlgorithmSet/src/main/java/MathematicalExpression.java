@@ -1,8 +1,7 @@
 //Evaluate complex expressions
 import java.io.IOException;
-import java.util.Scanner;
 
-public class MathematicalExpression {
+public class mathematicalExpression {
 
 
 

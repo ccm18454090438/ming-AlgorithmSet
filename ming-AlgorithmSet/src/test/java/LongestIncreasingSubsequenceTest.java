@@ -3,7 +3,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 
-public class LongestIncreasingSubsequenceTest {
+public class longestIncreasingSubsequenceTest {
 
   @Test
   public void TestLongestIncreasingSubsequence() {
@@ -11,10 +11,10 @@ public class LongestIncreasingSubsequenceTest {
     int[] b = {1, 2, 1, 3, 5, 4, 6, 7};
     int[] c = {};
     int[] d = null;
-    assertEquals(0, LongestIncreasingSubsequence.getNumber(c));
-    assertEquals(0, LongestIncreasingSubsequence.getNumber(d));
-    assertEquals(6, LongestIncreasingSubsequence.getNumber(b));
-    assertEquals(5, LongestIncreasingSubsequence.getNumber(a));
+    assertEquals(0, longestIncreasingSubsequence.getNumber(c));
+    assertEquals(0, longestIncreasingSubsequence.getNumber(d));
+    assertEquals(6, longestIncreasingSubsequence.getNumber(b));
+    assertEquals(5, longestIncreasingSubsequence.getNumber(a));
   }
 
 }
