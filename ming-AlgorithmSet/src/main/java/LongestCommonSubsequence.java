@@ -1,5 +1,5 @@
 
-public class longestCommonSubsequence {
+public class LongestCommonSubsequence {
 
     static  int aa;
     static  int bb;

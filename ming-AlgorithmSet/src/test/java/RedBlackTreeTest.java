@@ -2,11 +2,11 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 
-public class redBlackTreeTest {
+public class RedBlackTreeTest {
   @Test
   public void TestRedBlackTree(){
 
-    redBlackTree tree=new redBlackTree();
+    RedBlackTree tree=new RedBlackTree();
 
     int[] n={50,20,60,10,30,70,40};
     int i;

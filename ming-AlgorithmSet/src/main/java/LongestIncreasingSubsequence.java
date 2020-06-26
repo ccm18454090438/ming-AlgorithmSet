@@ -1,6 +1,6 @@
 
 
-public class longestIncreasingSubsequence {
+public class LongestIncreasingSubsequence {
   public static int getNumber(int[] a){
     int max=1;
     int m = 0;
