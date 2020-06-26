@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HeapSort {
+public class heapSort {
 
   public static void swap(int[] a, int b, int c) {
     int d = a[b];

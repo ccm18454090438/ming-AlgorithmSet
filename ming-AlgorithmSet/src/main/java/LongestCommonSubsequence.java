@@ -1,6 +1,5 @@
-import java.util.Scanner;
 
-public class LongestCommonSubsequence {
+public class longestCommonSubsequence {
 
     static  int aa;
     static  int bb;

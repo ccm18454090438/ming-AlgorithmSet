@@ -1,6 +1,6 @@
 
 
-public class ShortestPath {
+public class shortestPath {
 
 
   public static int[] getDistan(int n,int[][] dis,int begin){

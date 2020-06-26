@@ -1,10 +1,10 @@
 
-public class RedBlackTree {
+public class redBlackTree {
 
   node Head;
 
 
-  public RedBlackTree() {//A constructor
+  public redBlackTree() {//A constructor
     Head = new node();
     Head.isNil = true;
   }
