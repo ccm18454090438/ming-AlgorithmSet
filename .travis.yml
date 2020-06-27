@@ -1,0 +1,21 @@
+dist: trusty
+
+language: java
+
+jdk:
+  - openjdk8
+env:
+
+
+sudo: 
+
+
+before_cache:
+
+cache:
+
+before_script:
+
+script:
+ - cd ming-AlgorithmSet 
+ - mvn clean test
