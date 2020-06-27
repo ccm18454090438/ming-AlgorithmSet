@@ -1,5 +1,5 @@
 
-public class quickSort {
+public class QuickSort {
 
   public static void Sort(int[] n){
     sortTo(n,0,n.length-1);

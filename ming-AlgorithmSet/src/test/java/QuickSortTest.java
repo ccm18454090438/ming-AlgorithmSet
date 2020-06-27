@@ -1,7 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class quickSortTest {
+public class QuickSortTest {
 
 
 
@@ -11,9 +11,9 @@ public class quickSortTest {
 
 
     int[] a={3,1,4,2};
-    assertEquals("1234",quickSort.toSortString(a));
+    assertEquals("1234", QuickSort.toSortString(a));
     int[] b={2,6,9,2,0,5,-1};
-    assertEquals("-1022569",quickSort.toSortString(b));
+    assertEquals("-1022569", QuickSort.toSortString(b));
   }
 
 }

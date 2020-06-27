@@ -1,7 +1,7 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class heapSortTest {
+public class HeapSortTest {
 
 
   @Test
@@ -10,8 +10,8 @@ public class heapSortTest {
 
     int[] a={3,2,4,1};
     int[] b={7,6,3,0};
-    assertEquals("1234",heapSort.SortString(a));
-    assertEquals("0367",heapSort.SortString(b));
+    assertEquals("1234", HeapSort.SortString(a));
+    assertEquals("0367", HeapSort.SortString(b));
 
 
 
