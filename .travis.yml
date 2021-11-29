@@ -17,5 +17,4 @@ cache:
 before_script:
 
 script:
- - cd ming-AlgorithmSet 
- - mvn clean test
+  - mvn clean test
