@@ -4,6 +4,48 @@ public class RedBlackTree {
   node Head;
 
 
+
+  public  void NLR(){
+    // preorder traversal
+    NLr(Head);
+
+  }
+
+  private   void NLr(node now){
+    // preorder traversal
+    if(now.isNil==false){
+      System.out.print(now.value +"   ");
+      NLr(now.nextLeft);
+      NLr(now.nextRight);
+
+
+    }else{
+
+    }
+
+  }
+  public  void LNR(){
+    // preorder traversal
+    LNr(Head);
+
+  }
+
+  private   void LNr(node now){
+    // preorder traversal
+    if(now.isNil==false){
+
+      LNr(now.nextLeft);
+      System.out.print(now.value +"   ");
+      LNr(now.nextRight);
+
+
+    }else{
+
+    }
+
+  }
+
+
   public RedBlackTree() {//A constructor
     Head = new node();
     Head.isNil = true;
@@ -17,6 +59,18 @@ public class RedBlackTree {
   }
 
 
+  public static void main(String[] args) {
+//    RedBlackTree c = new RedBlackTree();
+//    int[] a;
+//    a= new int[]{50,20,60,10,30,70,40};
+//    for (int i=0;i<a.length;i++){
+//      c.addNode(a[i]);
+//    }
+//    c.Put();
+
+
+    test();
+  }
 
 
   public void chageNode(int Old, int New){// Modification method
@@ -251,7 +305,7 @@ public class RedBlackTree {
         //Directly delete the dimension level of the successor NIl node
         n.isNil = true;
         n.setValue(-1);
-        //Maintain balance with n nodes as unbalanced points
+        //`tain balance with n nodes as unbalanced points
         return deletFixup(n);
       }
     }
@@ -491,6 +545,21 @@ public class RedBlackTree {
     //Return successor node
   }
 
+  public static void test(){
+    RedBlackTree tree = new RedBlackTree();
+
+    /*
+    20
+12 1 9 2 0 11 7 19 4 15 18 5 14 13 10 16 6 3 8 17
+     */
+    int[]data ={12,1,9,2,0,11,7,19,4,15,18,5,14,13,10,16,6,3,8,17};
+
+    for(int i = 0;i<data.length;i++){
+      tree.addNode(data[i]);
+    }
+    tree.LNR();
+
+  }
 }
 
 
@@ -615,7 +684,5 @@ class node {
 
     }
   }
-
-
 }
 
